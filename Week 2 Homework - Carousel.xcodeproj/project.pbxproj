@@ -14,6 +14,9 @@
 		27E51F631D746C1400B0E35A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27E51F611D746C1400B0E35A /* LaunchScreen.storyboard */; };
 		27E51F6E1D746C1500B0E35A /* Week_2_Homework___CarouselTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E51F6D1D746C1500B0E35A /* Week_2_Homework___CarouselTests.swift */; };
 		27E51F791D746C1500B0E35A /* Week_2_Homework___CarouselUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E51F781D746C1500B0E35A /* Week_2_Homework___CarouselUITests.swift */; };
+		27E51F871D746D6000B0E35A /* Common copy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E51F861D746D6000B0E35A /* Common copy.swift */; };
+		27E51F891D74896600B0E35A /* IntroScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E51F881D74896600B0E35A /* IntroScreenViewController.swift */; };
+		27E51F8B1D7489F100B0E35A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E51F8A1D7489F100B0E35A /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		27E51F741D746C1500B0E35A /* Week 2 Homework - CarouselUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Week 2 Homework - CarouselUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		27E51F781D746C1500B0E35A /* Week_2_Homework___CarouselUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Week_2_Homework___CarouselUITests.swift"; sourceTree = "<group>"; };
 		27E51F7A1D746C1500B0E35A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27E51F861D746D6000B0E35A /* Common copy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Common copy.swift"; path = "../../Common copy.swift"; sourceTree = "<group>"; };
+		27E51F881D74896600B0E35A /* IntroScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroScreenViewController.swift; sourceTree = "<group>"; };
+		27E51F8A1D7489F100B0E35A /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +106,10 @@
 				27E51F581D746C1400B0E35A /* AppDelegate.swift */,
 				27E51F5A1D746C1400B0E35A /* ViewController.swift */,
 				27E51F5C1D746C1400B0E35A /* Main.storyboard */,
+				27E51F8A1D7489F100B0E35A /* LoginViewController.swift */,
+				27E51F881D74896600B0E35A /* IntroScreenViewController.swift */,
 				27E51F5F1D746C1400B0E35A /* Assets.xcassets */,
+				27E51F861D746D6000B0E35A /* Common copy.swift */,
 				27E51F611D746C1400B0E35A /* LaunchScreen.storyboard */,
 				27E51F641D746C1400B0E35A /* Info.plist */,
 			);
@@ -256,7 +265,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27E51F871D746D6000B0E35A /* Common copy.swift in Sources */,
+				27E51F891D74896600B0E35A /* IntroScreenViewController.swift in Sources */,
 				27E51F5B1D746C1400B0E35A /* ViewController.swift in Sources */,
+				27E51F8B1D7489F100B0E35A /* LoginViewController.swift in Sources */,
 				27E51F591D746C1400B0E35A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
