@@ -40,7 +40,8 @@ class IntroScreenViewController: UIViewController, UIScrollViewDelegate {
     
     func updateViewTransformWithOffset(offset: CGFloat){ }
     
-    @IBAction func onSignIn(sender: AnyObject) { }
+    @IBAction func onPressSignIn(sender: AnyObject) {
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
